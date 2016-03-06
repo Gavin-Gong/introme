@@ -1,0 +1,218 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:Helvetica Arial sans-serif;
+	font-weight: 200;
+	font-size: 11px;
+	background-color:#F1F3F6;
+	color: #77787B;
+
+}
+
+#container {
+	margin: 0 auto;
+	padding: 0 10%;
+	font-family: Helvetical, Arial, sans-serif;
+}
+
+#content {
+	width: 80%;
+	overflow: hidden;
+
+}
+
+#header {
+	height: 170px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	
+}
+
+#header h1 {
+	float: left;
+	font-size: 130px;
+	margin: 0;
+	font-weight: 200;
+	color: #ddd;
+}
+
+#header a {
+	display: inline-block;
+	/*float: left;*/
+	background: url(../images/theCross.png);
+	width: 40px;
+	height: 40px;
+	margin-top: 31px;
+	margin-left: 20px;
+}
+
+#header .title {
+	border-left: 1px solid #ddd;
+	float: left;
+}
+
+#header .wrapper{
+	border-left: 3px solid #999;
+	margin-top: 16px;
+    padding-left: 9px;
+}
+
+#header h3 {
+	margin: 0;
+}
+
+#header p{
+	/*float :left;*/
+	margin: 0;
+}
+
+#status {
+	overflow: hidden;
+	background: url(../images/status_bg.gif) left center no-repeat;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd ;
+	padding: 5px;
+}
+
+
+#status h2 {
+	margin: 0;
+	margin-left: 150px;
+	font-size: 60px;
+	font-weight: 100;
+}
+#status ul {
+	list-style: none;
+	letter-spacing: 1px;
+	/*float: left;*/
+	padding: 0;
+	margin: 0;
+	margin-left: 150px;
+}
+
+#status li {
+	display: inline-block;
+
+}
+
+#information {
+	float: left;
+}
+
+/*#content:after {
+	 display: table;
+	 content: ""; 
+	 width: 0; 
+	 clear: both;
+}*/
+
+#imglist{
+	border-left: 1px solid #ddd;
+	float: left;
+}
+
+#imglist h4 {
+	border-left: 3px solid #ddd;
+	padding-left: 10px;
+	line-height: 1.5;
+}
+
+#imglist img {
+	border: 3px solid #ddd;
+	margin-left: 10px;
+}
+
+
+#text {
+	float: left;
+	width: 500px;
+	border-left: 1px solid #ddd;
+	margin-left: 44px;
+}
+
+#text h4 {
+	border-left: 3px solid #ddd;
+	padding-left: 14px;
+}
+
+#text p {
+	margin-left: 18px;
+}
+
+#sidebar {
+	float: right;
+	overflow: hidden;
+	margin-top: -457px;
+	background: url(../images/sidebar_bg.png) top center no-repeat;
+	text-align: center;
+	border-left: 1px solid #ccc;
+}
+
+#sidebar>a {
+	display: inline-block;
+	background: url(../images/rssausage_bg.png)  no-repeat;
+	width: 54px;
+	height: 54px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #77787B;;
+	display: inline-block;
+	overflow: hidden;
+	width: 120px;
+}
+
+#nav a:hover h1  {
+	color: #F47920;
+	/*border-left: 3px solid #999;*/
+}
+
+#sidebar ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#sidebar li {
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+#sidebar li:nth-child(1) {
+	  border-left: 3px solid #F47920;
+	  }
+
+#nav {
+	overflow: hidden;
+	margin-top: 120px;
+	text-align: left;
+}
+#nav h1 {
+	float: left;
+	font-size: 40px;
+	margin: 0;
+	font-weight: 100;
+}
+
+#nav h2 {
+	float: left;
+	font-size:15px;
+	margin: 0;
+	margin-top: 8px;
+	margin-left: 8px;
+	font-weight: 100;
+}
+
+#nav h2:after {
+	display: table;
+	 content: ""; 
+	 width: 0; 
+	 clear: both;
+}
+#nav p {
+	/*float: left;*/
+	font-size: 10px;
+	margin: 0;
+	margin-left: 53px;
+}
